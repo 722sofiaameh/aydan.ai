@@ -1,9 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+.main{
+  /* background-image: url('../src/assets/bg.jpg'); */
+  /* background-color:; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+  
   }
   a:hover {
     color: #747bff;
@@ -12,3 +22,4 @@
     background-color: #f9f9f9;
   }
 }
+ 

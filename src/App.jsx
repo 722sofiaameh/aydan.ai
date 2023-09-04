@@ -1,15 +1,13 @@
-
-
+import Navbar from "./components/navbar";
+import Home from "./pages/home";
 
 function App() {
-  
-
   return (
     <>
-      <div>Hello Sophie</div>
-        
+      <Navbar />
+      <Home />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
