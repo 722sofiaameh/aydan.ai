@@ -9,10 +9,10 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   return (
     <>
-      <nav className="w-full md:sticky bg-transparent top-0 z-40  md:pt-2 font-Karla md:bg-red-600 shadow-md  md:justify-between md:items-center">
-        <div className=" md:justify-between mx-auto container md:items-center md:flex ">
+      <nav className=" w-full bg-transparent md:fixed bg-blend-soft-light shadow-md top-0 z-40  font-Karla  bg-opacity-75 ">
+        <div className=" md:justify-between mx-auto container md:items-center md:flex">
           <div>
-            <div className="flex items-center justify-between py-3 md:py-5 md:block  ">
+            <div className="flex items-center justify-between py-3 md:py-5 md:block ">
               <a href="/">
                 <img src={logo} alt="img" className="w-[15%]" />
               </a>

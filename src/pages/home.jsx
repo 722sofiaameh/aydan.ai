@@ -4,8 +4,8 @@ import what from "../assets/aiAgency.png";
 import img from "../assets/photoAI.png";
 export default function Home() {
   return (
-    <div className="z-0 relative">
-      <div className="main h-[70vh] w-[100%] bg-red-600  md:z-0 relative">
+    <div className="z-0 relative bg-gradient-to-r from-red-500">
+      <div className="main w-[100%]  h-[80vh]  md:z-0 relative pt-28">
         <div className="mx-auto container pt-12">
           <TypeAnimation
             sequence={[
@@ -39,10 +39,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex justify-between items-center py-12 mx-auto container">
+      <div className=" flex justify-between items-start py-24 mx-auto container">
         <div className="w-1/2 text-start">
-          <h1 className="text-2xl text-black">Who We Are!</h1>
-          <p>
+          <h1 className="text-3xl  text-black">Who We Are!</h1>
+          <p className="text-xl pt-2 pb-2">
             As a forward-thinking automation agency, Aydan Group is committed to
             transforming businesses across the globe. We leverage advanced AI
             and automation technologies to streamline operations, optimize
@@ -58,13 +58,16 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <img src={what} alt="img" className="w-9/12" />
+          <img src={what} alt="img" className=" rounded-md w-1/2" />
         </div>
       </div>
       <div className="mx-auto container">
         <h1 className="text-center text-3xl text-black">Why Aydan Group?</h1>
-        <div className="w-[50%] flex justify-between items-center py-12 mx-auto container">
-          <div>
+        <div className="pt-12 grid grid-cols-2 grid-flow-col justify-center mx-auto container items-start">
+        <div className="col-span-3 w-9/12">
+            <img src={img} alt="img" className="rounded-md "/>
+          </div>
+          <div className="col-span-2 w-9/12">
             <div>
               <h1 className="font-medium text-lg">Expertise in AI</h1>
               <p>
@@ -94,9 +97,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div>
-            <img src={img} alt="img" />
-          </div>
+         
         </div>
       </div>
     </div>

@@ -4,22 +4,9 @@
 
 .main{
   /* background-image: url('../src/assets/bg.jpg'); */
-  /* background-color:; */
+  /* background-color:red; */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-  
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
- 
