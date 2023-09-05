@@ -1,5 +1,5 @@
 
-import logo from "../assets/logo.png";
+import logo from "../assets/logoo.png";
 import { useState } from "react";
 import { IoMdSearch } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -9,12 +9,13 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   return (
     <>
-      <nav className=" w-full bg-transparent md:fixed bg-blend-soft-light shadow-md top-0 z-40  font-Karla  bg-opacity-75 ">
+      <nav className=" w-full bg-transparent md:bg-transparent fixed md:fixed bg-blend-soft-light shadow-md top-0 z-40  font-Karla ">
         <div className=" md:justify-between mx-auto container md:items-center md:flex">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block ">
               <a href="/">
-                <img src={logo} alt="img" className="w-[15%]" />
+                <img src={logo} alt="img" className="w-[20%]" />
+                
               </a>
               <div className="md:hidden ">
                 <button

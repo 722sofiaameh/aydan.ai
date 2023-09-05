@@ -2,11 +2,12 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import what from "../assets/aiAgency.png";
 import img from "../assets/photoAI.png";
+import Footer from "../components/footer"
 export default function Home() {
   return (
-    <div className="z-0 relative bg-gradient-to-r from-red-500">
-      <div className="main w-[100%]  h-[80vh]  md:z-0 relative pt-28">
-        <div className="mx-auto container pt-12">
+    <div className="z-0 relative  ">
+      <div className="main w-[100%]  h-[90vh]  md:z-0 relative pt-28 bg-gradient-to-r from-red-500 to-red-900">
+        <div className="mx-auto container pt-28">
           <TypeAnimation
             sequence={[
               // Same substring at the start will only be typed out once, initially
@@ -100,6 +101,7 @@ export default function Home() {
          
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
