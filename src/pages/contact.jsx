@@ -2,6 +2,8 @@ import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import { Link } from "react-router-dom";
 import { TextField } from "@mui/material";
+// import {makeStyles} from "@mui/styled-engine";
+
 import { useRef } from "react";
 const Contact = () => {
     const contentRef = useRef(null);
@@ -13,6 +15,12 @@ const Contact = () => {
         }
       };
 
+    //   const useStyles = makeStyles((theme) => ({
+    //     textField: {
+    //       width: '80%', // Adjust the width as needed
+    //     },
+    //   }));
+    //   const classes = useStyles();
   return (
     <>
       <Navbar />
@@ -33,7 +41,7 @@ const Contact = () => {
               </p>
               <div className="flex pt-4 justify-center items-center">
                 <button
-                  className="text-white md:text-white bg-black rounded-3xl whitespace-nowrap px-4 py-2 cursor-pointer "
+                  className="text-white md:text-red-600 bg-white  rounded-3xl whitespace-nowrap px-4 py-2 cursor-pointer "
                   to="/solutions"
                   onClick={scrollToContent}
                 >
@@ -54,7 +62,7 @@ const Contact = () => {
                     id="standard-basic"
                     label="First Name"
                     variant="standard"
-                sx={{width:'300'}}
+                    // className={classes.textField}
                   />
                   <TextField
                     id="standard-basic"

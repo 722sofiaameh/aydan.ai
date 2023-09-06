@@ -50,8 +50,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className=" flex justify-between items-start py-24 mx-auto container">
-          <div className="w-1/2 text-start">
+        <div className=" flex justify-between items-center py-24 mx-auto container">
+          {/* <div className="w-1/2 text-start">
             <h1 className="text-3xl  text-black">Who We Are!</h1>
             <p className="text-xl pt-2 pb-2">
               As a forward-thinking automation agency, Aydan Group is committed
@@ -68,11 +68,36 @@ export default function Home() {
                 Discover Our Solutions
               </Link>
             </div>
-          </div>
-          <div>
+          </div> */}
+          <TypeAnimation
+              sequence={[
+                // Same substring at the start will only be typed out once, initially
+                "Utilize Aydan's AI Comprehensive AI Development Expertise to maximize your business Potent",
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                "Utilize Aydan's AI Comprehensive AI Development Expertise to maximize your business Potent",
+                1000,
+                // "We produce food for Guinea Pigs",
+                // 1000,
+                // "We produce food for Chinchillas",
+                // 1000,
+              ]}
+              wrapper="span"
+              speed={50}
+              style={{
+                fontSize: "2.5em",
+                display: "flex",
+                justifyContent:'center',
+                alignItems:'center',
+                color: "black",
+                textAlign:'center'
+              }}
+              repeat={Infinity}
+            />
+          {/* <div>
             <img src={what} alt="img" className=" rounded-md w-1/2" />
-          </div>
+          </div> */}
         </div>
+        
         <div className="mx-auto container">
           <h1 className="text-center text-3xl text-black">Why Aydan Group?</h1>
           <div className="py-12 grid grid-cols-2 grid-flow-col justify-center mx-auto container items-start">
