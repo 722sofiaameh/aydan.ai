@@ -6,14 +6,14 @@ export default function Footer() {
     <footer className="w-full bg-gradient-to-r p-6 from-red-600 to-red-950">
       <div className="flex justify-between items-center mx-auto">
         <div>
-        <li className="md:text-white pb-6 text-md text-white py-2 px-6 text-center   md:border-b-0 md:hover:underline    md:hover:text-transparent">
+    
                 <Link
                   to="/"
                   onClick={() => setNavbar(!navbar)}
                   className="md:hover:bg-none md:hover:text-neutral-50 text-white"
                 >@Aydan.AI
                 </Link>
-              </li>
+             
         </div>
         <div>
           <ul className="h-50 md:h-auto md:text-white md:hover:text-white rounded-xl items-center justify-center bg-[#232A34] md:bg-transparent  md:items-center md:justify-center  bg-deepViolet md:flex">

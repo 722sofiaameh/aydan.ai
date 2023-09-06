@@ -6,7 +6,7 @@ const About = () => {
     <>
     <Navbar/>
     <div className="z-0 relative ">
-        <div className="z-0 relative bg-gradient-to-r from-red-500 to-red-900 pt-28 h-[70vh]">
+        <div className="z-0 relative bg-gradient-to-r from-red-500 to-red-900 pt-28 h-[90vh]">
             <div className="mx-auto container">
                 <h1 className="text-center text-2xl text-white">Who We Are</h1>
                 <p className="text-center text-lg pt-4 text-white">As a forward-thinking automation agency, Aydan Group is committed to

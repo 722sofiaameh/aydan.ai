@@ -11,9 +11,10 @@ export default function Home() {
       <Navbar />
       <div className="z-0 relative ">
         <div className="main w-[100%]  h-[90vh]  md:z-0 relative pt-28 bg-gradient-to-r from-red-500 to-red-900">
-          
           <div className="mx-auto container pt-28">
-            <h1 className="text-5xl w-1/2">Aydan.Ai - Powering Growth Through Intelligent Automation</h1>
+            <h1 className="text-5xl w-1/2">
+              Aydan.Ai - Powering Growth Through Intelligent Automation
+            </h1>
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
@@ -50,6 +51,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="bg-black">
         <div className=" flex justify-between items-center py-24 mx-auto container">
           {/* <div className="w-1/2 text-start">
             <h1 className="text-3xl  text-black">Who We Are!</h1>
@@ -70,36 +72,37 @@ export default function Home() {
             </div>
           </div> */}
           <TypeAnimation
-              sequence={[
-                // Same substring at the start will only be typed out once, initially
-                "Utilize Aydan's AI Comprehensive AI Development Expertise to maximize your business Potent",
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Utilize Aydan's AI Comprehensive AI Development Expertise to maximize your business Potent",
-                1000,
-                // "We produce food for Guinea Pigs",
-                // 1000,
-                // "We produce food for Chinchillas",
-                // 1000,
-              ]}
-              wrapper="span"
-              speed={50}
-              style={{
-                fontSize: "2.5em",
-                display: "flex",
-                justifyContent:'center',
-                alignItems:'center',
-                color: "black",
-                textAlign:'center'
-              }}
-              repeat={Infinity}
-            />
+            sequence={[
+              // Same substring at the start will only be typed out once, initially
+              "Utilize Aydan's AI Comprehensive AI Development Expertise to maximize your business Potent",
+              1000, // wait 1s before replacing "Mice" with "Hamsters"
+              "Utilize Aydan's AI Comprehensive AI Development Expertise to maximize your business Potent",
+              1000,
+              // "We produce food for Guinea Pigs",
+              // 1000,
+              // "We produce food for Chinchillas",
+              // 1000,
+            ]}
+            wrapper="span"
+            speed={50}
+            style={{
+              fontSize: "2.5em",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              color: "white",
+              textAlign: "center",
+            }}
+            repeat={Infinity}
+          />
           {/* <div>
             <img src={what} alt="img" className=" rounded-md w-1/2" />
           </div> */}
         </div>
-        
+        </div>
+
         <div className="mx-auto container">
-          <h1 className="text-center text-3xl text-black">Why Aydan Group?</h1>
+          <h1 className="text-center text-3xl text-black pt-12">Why Aydan Group?</h1>
           <div className="py-12 grid grid-cols-2 grid-flow-col justify-center mx-auto container items-start">
             <div className="col-span-3 w-9/12">
               <img src={img} alt="img" className="rounded-md " />
