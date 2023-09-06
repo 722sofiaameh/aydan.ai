@@ -19,19 +19,19 @@ const Contact = () => {
       <div className="">
         <div className="">
           <div className=" ">
-            <div className="h-[80vh] pt-28 bg-gradient-to-r from-red-500 to-red-900">
+            <div className="h-[80vh] pt-28 bg-gradient-to-r from-red-500 to-red-900 text-white">
               <h1 className="text-center text-3xl">
                 Ready to Amplify Your Business Growth?
               </h1>
-              <p className="text-center text-lg">
+              <p className="text-center text-lg pt-4">
                 Contact Aydan.AI and start your journey towards streamlined
-                operations and remarkable growth. Let's redefine what's possible
-                with AI.The Aydan Group team is composed of experienced AI
+                operations and remarkable growth.<br></br> Let's redefine what's possible
+                with AI.The Aydan Group team is composed of experienced <br></br>AI
                 experts with a deep understanding of the needs of SMEs. The team
-                is committed to providing innovative and affordable AI
+                is committed to providing innovative and affordable<br></br> AI
                 automation solutions that help businesses grow.
               </p>
-              <div className="flex pt-2 justify-center items-center">
+              <div className="flex pt-4 justify-center items-center">
                 <button
                   className="text-white md:text-white bg-black rounded-3xl whitespace-nowrap px-4 py-2 cursor-pointer "
                   to="/solutions"

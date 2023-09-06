@@ -3,6 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 import what from "../assets/aiAgency.png";
 import img from "../assets/photoAI.png";
 import Footer from "../components/footer";
+import { Link } from "react-router-dom";
 import Navbar from "../components/navbar";
 export default function Home() {
   return (
@@ -40,12 +41,12 @@ export default function Home() {
               unprecedented growth."
             </p>
             <div className="flex pt-2">
-              <a
+              <Link
                 className="text-white md:text-red-600 bg-white rounded-3xl whitespace-nowrap px-4 py-2 cursor-pointer "
                 href="/"
               >
                 Discover Our Solutions
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -60,12 +61,12 @@ export default function Home() {
               success.
             </p>
             <div className="flex pt-2">
-              <a
+              <Link
                 className="text-white md:text-white bg-red-600 rounded-3xl whitespace-nowrap px-4 py-2 cursor-pointer "
                 href="/"
               >
                 Discover Our Solutions
-              </a>
+              </Link>
             </div>
           </div>
           <div>
