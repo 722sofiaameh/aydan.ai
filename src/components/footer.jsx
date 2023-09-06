@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return(
   <>
-    <div className="w-full bg-gradient-to-r p-6 from-red-500 to-red-900">
+    <div className="w-full bg-gradient-to-r p-6 from-red-600 to-red-950">
       <div className="flex justify-between items-center mx-auto">
         <div>
         <li className="md:text-white pb-6 text-md text-white py-2 px-6 text-center   md:border-b-0 md:hover:underline    md:hover:text-transparent">
