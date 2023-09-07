@@ -95,7 +95,7 @@ const Navbar = () => {
                     </Link>
                   </li><li className="md:text-white pb-6 text-md text-white py-2 px-6 text-center   border-purple-900  md:hover:underline  ">
                     <Link
-                      to="/"
+                      to="/impact"
                       onClick={() => setNavbar(!navbar)}
                       className="md:hover:bg-none md:hover:text-neutral-50"
                     >
@@ -114,7 +114,7 @@ const Navbar = () => {
                   </li>
                   <li className="md:text-red-600  text-md text-white py-2 px-6 text-center        md:hover:bg-transparent">
                     {" "}
-                    <Link className="text-white md:text-red-600 bg-white rounded-3xl whitespace-nowrap px-4 py-2 cursor-pointer" to="/contact">
+                    <Link className="text-white md:text-amber-400 bg-white rounded-3xl whitespace-nowrap px-4 py-2 cursor-pointer" to="/contact">
                      Get Started
                     </Link>
                   </li>

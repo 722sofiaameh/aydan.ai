@@ -1,7 +1,7 @@
 import vid from "../assets/bg-vid.mp4";
 import React from 'react';
 import Navbar from "../components/navbar";
-
+import {Link} from 'react-router-dom'
 const Impact = () => {
   return (
     <>
@@ -16,11 +16,28 @@ const Impact = () => {
         <source src={vid} type="video/mp4" />
       
       </video>
-      <div className="relative z-10 pt-32">
+      <div className="relative z-10 pt-52">
         {/* Content on top of the video background */}
         <div className='mx-auto container'>
-            <h1 className="text-4xl font-bold text-white">Welcome to My Website</h1>
-            <p className="text-lg text-white mt-4">This is a video background example.</p>
+        <h1 className="text-5xl w-1/2 text-white font-Karla">
+              Aydan.Ai - </h1><p className='text-white pt-4 text-md font-Karla'>Powering Growth Through Intelligent<span className='text-amber-300'> Automation</span></p>
+              <div className='flex gap-3'>
+                  <div className="flex pt-2 font-Karla">
+                  <Link
+                    className="text-white md:text-black bg-amber-300 rounded-md whitespace-nowrap px-2 py-1 cursor-pointer "
+                    href="/"
+                  >
+                   Get In Touch
+                  </Link>
+                              </div>  <div className="flex pt-2 font-Karla">
+                  <Link
+                    className="text-white md:text-black bg-white rounded-md whitespace-nowrap px-2 py-1 cursor-pointer "
+                    href="/"
+                  >
+                  Our Services
+                  </Link>
+                              </div>
+              </div>
         </div>
       </div>
     </div>
