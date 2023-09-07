@@ -10,9 +10,9 @@ export default function Home() {
     <>
       <Navbar />
       <div className="z-0 relative ">
-        <div className="main w-[100%]  h-[90vh]  md:z-0 relative pt-28 bg-gradient-to-r from-red-500 to-red-900">
+        <div className="main w-[100%]  h-[90vh]  md:z-0 relative pt-28 bg-gradient-to-r from-red-500 to-red-950 font-Karla">
           <div className="mx-auto container pt-28">
-            <h1 className="text-5xl w-1/2">
+            <h1 className="text-5xl w-1/2 ">
               Aydan.Ai - Powering Growth Through Intelligent Automation
             </h1>
             <TypeAnimation

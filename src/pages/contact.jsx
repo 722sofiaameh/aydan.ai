@@ -27,7 +27,7 @@ const Contact = () => {
       <div className="">
         <div className="">
           <div className=" ">
-            <div className="h-[80vh] pt-28 bg-gradient-to-r from-red-500 to-red-900 text-white">
+            <div className="h-[80vh] pt-28 bg-gradient-to-r from-red-500 to-red-950 text-white">
               <h1 className="text-center text-3xl">
                 Ready to Amplify Your Business Growth?
               </h1>
