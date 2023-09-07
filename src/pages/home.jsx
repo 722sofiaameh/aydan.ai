@@ -2,6 +2,7 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import what from "../assets/aiAgency.png";
 import img from "../assets/photoAI.png";
+import vid from "../assets/bg-vid.mp4";
 import Footer from "../components/footer";
 import { Link } from "react-router-dom";
 import Navbar from "../components/navbar";
@@ -9,8 +10,9 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="z-0 relative ">
-        <div className="main w-[100%]  h-[90vh]  md:z-0 relative pt-28 bg-gradient-to-r from-red-500 to-red-950 font-Karla">
+      <div className=" relative ">
+      
+        <div className="main w-[100%]  h-[90vh]  md:z-0 relative pt-28 ">
           <div className="mx-auto container pt-28">
             <h1 className="text-5xl w-1/2 ">
               Aydan.Ai - Powering Growth Through Intelligent Automation
@@ -95,9 +97,7 @@ export default function Home() {
             }}
             repeat={Infinity}
           />
-          {/* <div>
-            <img src={what} alt="img" className=" rounded-md w-1/2" />
-          </div> */}
+         
         </div>
         </div>
 
@@ -105,7 +105,7 @@ export default function Home() {
           <h1 className="text-center text-3xl text-black pt-12">Why Aydan Group?</h1>
           <div className="py-12 grid grid-cols-2 grid-flow-col justify-center mx-auto container items-start">
             <div className="col-span-3 w-9/12">
-              <img src={img} alt="img" className="rounded-md " />
+           <img src={img} alt="img" className="rounded-md " />
             </div>
             <div className="col-span-2 w-9/12">
               <div>
