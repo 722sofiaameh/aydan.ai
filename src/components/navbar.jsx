@@ -73,7 +73,7 @@ const Navbar = () => {
               <ul className="h-50 md:h-auto md:text-white md:hover:text-white rounded-xl items-center justify-center bg-[#232A34] md:bg-transparent  md:items-center md:justify-center  bg-deepViolet md:flex">
                 <div className="md:flex ">
                  
-                 <li className="md:text-white pb-6 text-md text-white py-2 px-6 text-center   border-purple-900  md:hover:underline  ">
+                 {/* <li className="md:text-white pb-6 text-md text-white py-2 px-6 text-center   border-purple-900  md:hover:underline  ">
                     <Link
                       to="/impact"
                       onClick={() => setNavbar(!navbar)}
@@ -81,12 +81,13 @@ const Navbar = () => {
                     >
                     Impact
                     </Link>
-                  </li><li className="md:text-white pb-6 text-md text-white py-2 px-6 text-center     md:hover:underline  ">
-                    <Link to='/solutions'
+                  </li> */}
+                  <li className="md:text-white pb-6 text-md text-white py-2 px-6 text-center     md:hover:underline  ">
+                    <Link to='/'
                       onClick={() => setNavbar(!navbar)}
                       className="md:hover:bg-none md:hover:text-neutral-50"
                     >
-                    Solutions
+                   Our Services
                     </Link>
                     {/* <a
                       href

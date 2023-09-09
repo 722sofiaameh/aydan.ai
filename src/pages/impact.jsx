@@ -3,6 +3,7 @@ import About from "./about";
 import { Solution } from "./solutions";
 import React from "react";
 import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 import { TextField } from "@mui/material";
 import { TypeAnimation } from "react-type-animation";
 import { useRef } from "react";
@@ -142,7 +143,7 @@ const Impact = () => {
         </div>
       </div>{" "}
       <div className=" ">
-        <div className="h-[80vh] pt-28 bg-gradient-to-r from-red-500 to-red-950 text-white">
+        <div className="h-[80vh] font-Karla pt-28 bg-black text-white">
           <h1 className="text-center text-3xl">
             Ready to Amplify Your Business Growth?
           </h1>
@@ -156,24 +157,24 @@ const Impact = () => {
           </p>
           <div className="flex pt-4 justify-center items-center">
             <button
-              className="text-white md:text-red-600 bg-white  rounded-3xl whitespace-nowrap px-4 py-2 cursor-pointer "
+              className="text-white md:text-amber-600 bg-white  rounded-lg whitespace-nowrap px-4 py-2 cursor-pointer "
               to="/solutions"
-              onClick={scrollToContent}
+              onClick={scrollToContact}
             >
               Contact Us Today
             </button>
           </div>
         </div>
         <div className="mx-auto container " ref={contactRef}>
-          <h1 className="uppercase text-center pt-8 text-2xl">
+          <h1 className="uppercase font-Kotori font-light text-amber-600 text-center pt-8 text-2xl">
             Let's Get In Touch
           </h1>
-          <p className="text-lg py-4 text-center">
+          <p className="text-lg font-Karla py-2 text-center">
             If you are a small or medium-sized business looking to grow your
             business with AI automation,<br></br> contact Aydan Group today to
             learn more about our services
           </p>
-          <div className="flex gap-4 justify-center items-center pb-8 flex-col ">
+          <div className="flex pt-8 gap-4 justify-center items-center pb-8 flex-col ">
             <div className="flex gap-10">
               <TextField
                 id="standard-basic"
@@ -199,13 +200,14 @@ const Impact = () => {
           <div className="flex justify-center items-center">
             <button
               className="
-                bg-red-600 p-2 text-white rounded-md w-[100px] mb-8"
+                bg-amber-600 p-1 text-white rounded-md w-[100px] mb-8 font-Karla"
             >
               Send
             </button>
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

@@ -6,7 +6,7 @@ const About = () => {
     <>
       <Navbar />
       <div className="z-0 relative ">
-        <div className="z-0 relative pt-[380px]">
+        <div className="z-0 relative pt-[360px]">
           <div className="mx-auto container">
             <h1 className="text-center font-Karla text-3xl text-black">
               Who We Are
@@ -22,7 +22,7 @@ const About = () => {
             </p>
             <div className="flex pt-4 justify-center items-center">
               <Link
-                className="text-black md:text-amber-500 bg-black rounded-3xl whitespace-nowrap px-4 py-2 cursor-pointer font-Karla  "
+                className="text-white md:bg-amber-600 bg-black rounded-md whitespace-nowrap px-4 py-2 cursor-pointer font-Karla  "
                 to="/contact"
               >
                 Learn More About Us
