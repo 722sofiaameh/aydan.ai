@@ -8,6 +8,8 @@ import { TextField } from "@mui/material";
 import { TypeAnimation } from "react-type-animation";
 import { useRef } from "react";
 import { Link } from "react-router-dom";
+
+
 const Impact = () => {
   const contentRef = useRef(null);
   const contactRef = useRef(null);
@@ -26,7 +28,7 @@ const Impact = () => {
   };
   return (
     <div>
-      <Navbar />
+      <Navbar/>
       <div className="relative ">
         <video
           autoPlay
@@ -73,12 +75,12 @@ const Impact = () => {
           <TypeAnimation
             sequence={[
               // Same substring at the start will only be typed out once, initially
-              "Utilize Aydan's AI Comprehensive AI Development Expertise to maximize your business Potent",
+              "Utilize Aydan's AI Comprehensive AI Development Expertise to maximize your business Potential",
               1000, // wait 1s before replacing "Mice" with "Hamsters"
-              "Utilize Aydan's AI Comprehensive AI Development Expertise to maximize your business Potent",
+              "Utilize Aydan's AI Comprehensive AI Development Expertise to maximize your business Potential",
               1000,
-              // "We produce food for Guinea Pigs",
-              // 1000,
+              "Utilize Aydan's AI Comprehensive AI Development Expertise to maximize your business Potential",
+              1000,
               // "We produce food for Chinchillas",
               // 1000,
             ]}
@@ -101,8 +103,8 @@ const Impact = () => {
         <h1 className="text-center  font-Kotori text-amber-500 text-xl pt-4 uppercase">
           Our Cutting-Edge Solutions
         </h1>
-        <div className="flex gap-4 font-Kotori justify-center items-center pt-8">
-          <div className="bg-white border-2 border-gray-300 p-2 text-black rounded-md drop-shadow-lg shadow-lg w-[350px] h-[200px]">
+        <div className="md:flex gap-4 mx-auto container grid font-Kotori justify-center items-center md:pt-8 pt-8">
+          <div className="bg-white border-2 border-gray-300 md:p-2 p-2 text-black rounded-md drop-shadow-lg shadow-lg w-[350px] h-[200px]">
             <h1 className="text-center font-Kotori text-xl pt-4 font-semibold">
               AI Consultation
             </h1>
@@ -111,7 +113,7 @@ const Impact = () => {
               your business.
             </p>
           </div>
-          <div className="bg-white  border-2 border-gray-300 p-2 text-black rounded-md drop-shadow-lg shadow-lg  w-[350px] h-[200px]">
+          <div className="bg-white mt-4 md:mt-0 border-2 border-gray-300 p-2 text-black rounded-md drop-shadow-lg shadow-lg  w-[350px] h-[200px]">
             <h1 className="text-center text-xl pt-4 font-semibold">
               Custom AI Solutions
             </h1>
@@ -121,7 +123,7 @@ const Impact = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-4 justify-center items-center pt-12">
+        <div className="md:flex grid gap-4 justify-center items-center md:pt-12 pt-8">
           <div className="bg-white  border-2 border-gray-300 p-2 drop-shadow-lg shadow-lg  text-black rounded-md w-[350px] h-[200px]">
             <h1 className="text-center text-xl pt-4 font-semibold">
               Seamless AI Implementation
@@ -131,7 +133,7 @@ const Impact = () => {
               operations.
             </p>
           </div>
-          <div className="bg-white  border-2 border-gray-300 p-2 text-black rounded-md drop-shadow-lg shadow-lg  w-[350px] h-[200px]">
+          <div className="bg-white  border-2 mt-8 md:mt-0 border-gray-300 p-2 text-black rounded-md drop-shadow-lg shadow-lg  w-[350px] h-[200px]">
             <h1 className="text-center text-xl pt-4 font-semibold">
               Training & Support
             </h1>
@@ -157,7 +159,7 @@ const Impact = () => {
           </p>
           <div className="flex pt-4 justify-center items-center">
             <button
-              className="text-white md:text-amber-600 bg-white  rounded-lg whitespace-nowrap px-4 py-2 cursor-pointer "
+              className="text-amber-600 bg-white  rounded-lg whitespace-nowrap px-4 py-2 cursor-pointer "
               to="/solutions"
               onClick={scrollToContact}
             >
@@ -166,16 +168,16 @@ const Impact = () => {
           </div>
         </div>
         <div className="mx-auto container " ref={contactRef}>
-          <h1 className="uppercase font-Kotori font-light text-amber-600 text-center pt-8 text-2xl">
+          <h1 className="uppercase font-Kotori font-light text-amber-600 text-center pt-8 md:text-2xl text-xl">
             Let's Get In Touch
           </h1>
-          <p className="text-lg font-Karla py-2 text-center">
+          <p className="md:text-lg text-base font-Karla py-2 text-center">
             If you are a small or medium-sized business looking to grow your
             business with AI automation,<br></br> contact Aydan Group today to
             learn more about our services
           </p>
-          <div className="flex pt-8 gap-4 justify-center items-center pb-8 flex-col ">
-            <div className="flex gap-10">
+          <div className="md:flex grid pt-8 gap-4 justify-center items-center pb-8 flex-col ">
+            <div className="md:flex grid justify-center items-center gap-10">
               <TextField
                 id="standard-basic"
                 label="First Name"
@@ -188,7 +190,7 @@ const Impact = () => {
                 variant="standard"
               />
             </div>{" "}
-            <div className="flex gap-10">
+            <div className="md:flex grid md:pt-0 pt-2 gap-10">
               <TextField
                 id="standard-basic"
                 label="Phone Number"

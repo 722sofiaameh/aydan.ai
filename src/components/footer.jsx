@@ -16,7 +16,7 @@ export default function Footer() {
              
         </div>
         <div>
-          <ul className="h-50 md:h-auto md:text-white md:hover:text-white rounded-xl items-center justify-center bg-[#232A34] md:bg-transparent  md:items-center md:justify-center  bg-deepViolet md:flex">
+          <ul className="h-50 md:h-auto md:text-white md:hover:text-white rounded-xl items-center justify-center md:bg-transparent  md:items-center md:justify-center  bg-deepViolet md:flex">
             <div className="md:flex ">
               <li className="md:text-white pb-6 text-md text-white py-2 px-6 text-center   md:border-b-0 md:hover:underline    md:hover:text-transparent">
                 <Link
@@ -29,7 +29,7 @@ export default function Footer() {
               </li>
               <li className="md:text-white pb-6 text-md text-white py-2 px-6 text-center     md:hover:underline  ">
                 <Link
-                  to="https://www.youtube.com/@BBcreators"
+                  to="/"
                   onClick={() => setNavbar(!navbar)}
                   className="md:hover:bg-none md:hover:text-neutral-50"
                 >
@@ -38,7 +38,7 @@ export default function Footer() {
               </li>
               <li className="md:text-white pb-6 text-md text-white py-2 px-6 text-center  md:hover:text-white   md:hover:underline  ">
                 <Link
-                  to="https://www.youtube.com/@BBcreators"
+                  to="/"
                   onClick={() => setNavbar(!navbar)}
                   className="md:hover:bg-none md:hover:text-neutral-50"
                 >

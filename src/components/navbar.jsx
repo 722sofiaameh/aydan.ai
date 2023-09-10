@@ -30,10 +30,11 @@ const Navbar = () => {
   };
 
   const navbarStyle = {
-    backgroundColor: scrolling ? 'grey' : 'transparent', // Change the background color based on the scrolling state
+    backgroundColor: scrolling ? 'gray' : 'transparent', // Change the background color based on the scrolling state
     transition: 'background-color 0.3s ease', // Add a smooth transition
     position: 'fixed',
-    opacity: scrolling ? '30%' : '',
+    color: scrolling ? 'black' : 'white',
+    // opacity: scrolling ? '20%' : '',
     top: 0,
     width: '100%',
     zIndex: 1000,
@@ -42,7 +43,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav style={navbarStyle} className=" w-full font-Kotori bg-transparent md:bg-transparent fixed md:fixed top-0 z-40  ">
+      <nav style={navbarStyle} className=" w-full font-Kotori bg-transparent md:bg-transparent fixed md:fixed top-0 md:h-[100px] z-40  ">
         <div className=" md:justify-between mx-auto container md:items-center md:flex">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block ">
@@ -58,7 +59,7 @@ const Navbar = () => {
                   {navbar ? (
                     <GrFormClose color="#232A34" />
                   ) : (
-                    <GiHamburgerMenu color="#232A34" />
+                    <GiHamburgerMenu color="white" />
                   )}
                 </button>
               </div>
@@ -83,8 +84,9 @@ const Navbar = () => {
                     </Link>
                   </li> */}
                   <li className="md:text-white pb-6 text-md text-white py-2 px-6 text-center     md:hover:underline  ">
-                    <Link to='/'
-                      onClick={() => setNavbar(!navbar)}
+                    <Link 
+                      onClick={() => {setNavbar(!navbar)
+                      ref={contentRef}}}
                       className="md:hover:bg-none md:hover:text-neutral-50"
                     >
                    Our Services
@@ -95,7 +97,7 @@ const Navbar = () => {
                   </li>
                   <li className="md:text-red-600  text-md text-white py-2 px-6 text-center        md:hover:bg-transparent">
                     {" "}
-                    <Link className="text-white md:text-amber-400 bg-white rounded-3xl whitespace-nowrap px-4 py-2 cursor-pointer" to="/contact">
+                    <Link className="text-black md:text-amber-400 bg-white rounded-3xl whitespace-nowrap px-4 py-2 cursor-pointer" to="/contact">
                      Get Started
                     </Link>
                   </li>

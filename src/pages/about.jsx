@@ -6,7 +6,7 @@ const About = () => {
     <>
       <Navbar />
       <div className="z-0 relative ">
-        <div className="z-0 relative pt-[360px]">
+        <div className="z-0 relative md:pt-[360px] pt-[480px]">
           <div className="mx-auto container">
             <h1 className="text-center font-Karla text-3xl text-black">
               Who We Are
