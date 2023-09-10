@@ -9,7 +9,7 @@ const About = () => {
       <div className="z-0 relative ">
         <div className="z-0 relative md:pt-[300px] pt-[480px]">
           <div className="mx-auto container">
-                <h1 className="text-center md:pb-12 font-Karla md:text-4xl text-3xl text-black">
+                <h1 className="text-center md:pb-12 font-Karla md:text-4xl text-3xl text-amber-600">
                   Who We Are
                 </h1>
             <div className="md:flex grid md:justify-center  md:items-start justify-center items-center">
@@ -26,7 +26,7 @@ const About = () => {
                 <div className="flex justify-start items-start pt-4">
                   <Link
                     className="text-white md:bg-amber-600 rounded-md whitespace-nowrap px-4 py-2 cursor-pointer font-Karla  "
-                    to="/contact"
+                    to=""
                   >
                     Learn More About Us
                   </Link>
