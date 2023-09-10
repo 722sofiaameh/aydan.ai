@@ -22,7 +22,7 @@ const About = () => {
             </p>
             <div className="flex pt-4 justify-center items-center">
               <Link
-                className="text-white md:bg-amber-600 bg-black rounded-md whitespace-nowrap px-4 py-2 cursor-pointer font-Karla  "
+                className="text-white md:bg-amber-600 rounded-md whitespace-nowrap px-4 py-2 cursor-pointer font-Karla  "
                 to="/contact"
               >
                 Learn More About Us

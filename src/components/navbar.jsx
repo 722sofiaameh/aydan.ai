@@ -83,7 +83,7 @@ const Navbar = () => {
                     Impact
                     </Link>
                   </li> */}
-                  <li className="md:text-white pb-6 text-md text-white py-2 px-6 text-center     md:hover:underline  ">
+                  {/* <li className="md:text-white pb-6 text-md text-white py-2 px-6 text-center     md:hover:underline  ">
                     <Link 
                       onClick={() => {setNavbar(!navbar)
                       ref={contentRef}}}
@@ -91,14 +91,12 @@ const Navbar = () => {
                     >
                    Our Services
                     </Link>
-                    {/* <a
-                      href
-                    </a> */}
-                  </li>
+                  
+                  </li> */}
                   <li className="md:text-red-600  text-md text-white py-2 px-6 text-center        md:hover:bg-transparent">
                     {" "}
-                    <Link className="text-black md:text-amber-400 bg-white rounded-3xl whitespace-nowrap px-4 py-2 cursor-pointer" to="/contact">
-                     Get Started
+                    <Link className="text-black md:text-amber-400 bg-white rounded-3xl whitespace-nowrap px-4 py-2 cursor-pointer" to="https://bbcreators.beehiiv.com/p/change-build-africas-next-unicorn-ai">
+                    Join Our NewsLetter
                     </Link>
                   </li>
                 </div>
