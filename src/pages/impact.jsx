@@ -28,21 +28,21 @@ const Impact = () => {
   };
   return (
     <div>
-      <Navbar/>
       <div className="relative ">
         <video
           autoPlay
           loop
           muted
           className="w-[100vw] h-[95vh] absolute inset-0 object-cover"
-        >
+          >
           <source src={vid} type="video/mp4" />
         </video>
-        <div className="relative z-10 pt-52">
+        <div className="relative z-10 ">
+          <Navbar/>
           {/* Content on top of the video background */}
           <div className="mx-auto container">
-            <h1 className="text-5xl w-1/2 text-white font-Karla">
-              Aydan.Ai -{" "}
+            <h1 className="text-5xl w-1/2 md:mt-32 mt-24 text-white  md:text-white font-Karla">
+              Aydan.Ai 
             </h1>
             <p className="text-white pt-4 text-md font-Karla">
               Powering Growth Through Intelligent

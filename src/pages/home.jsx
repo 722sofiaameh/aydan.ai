@@ -9,9 +9,9 @@ import Navbar from "../components/navbar";
 export default function Home() {
   return (
     <>
-      <Navbar />
       <div className=" relative ">
       
+      <Navbar />
         <div className="main w-[100%]  h-[90vh]  md:z-0 relative pt-28 ">
           <div className="mx-auto container pt-28">
             <h1 className="text-5xl w-1/2 ">

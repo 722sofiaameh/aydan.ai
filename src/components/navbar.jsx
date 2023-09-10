@@ -44,7 +44,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav style={navbarStyle}  className="{navbarStyle} w-full font-Kotori bg-transparent md:bg-transparent fixed md:fixed top-0 md:h-[100px] z-40  ">
+      <nav className=" bg-blend-multiply   w-full font-Kotori top-0 md:h-[100px] z-40  ">
         <div className=" md:justify-between mx-auto container md:items-center md:flex">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block ">
