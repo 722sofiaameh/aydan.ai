@@ -85,7 +85,7 @@ const Impact = () => {
               // 1000,
             ]}
             wrapper="span"
-            speed={50}
+            speed={10}
             style={{
               fontSize: "2.5em",
               fontFamily: "Karla",
@@ -94,6 +94,7 @@ const Impact = () => {
               alignItems: "center",
               color: "white",
               textAlign: "center",
+              // width:'50%'
             }}
             repeat={Infinity}
           />
@@ -157,7 +158,7 @@ const Impact = () => {
             The team is committed to providing innovative and affordable
             <br></br> AI automation solutions that help businesses grow.
           </p>
-          <div className="flex pt-4 justify-center items-center">
+          <div className="flex pt-4 md:pb-0 pb-4 justify-center items-center">
             <button
               className="text-amber-600 bg-white  rounded-lg whitespace-nowrap px-4 py-2 cursor-pointer "
               to="/solutions"
