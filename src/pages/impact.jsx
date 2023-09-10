@@ -14,7 +14,7 @@ const Impact = () => {
   const contentRef = useRef(null);
   const contactRef = useRef(null);
 
-  const scrollToContent = () => {
+ const scrollToContent = () => {
     // Scroll to the content element smoothly
     if (contentRef.current) {
       contentRef.current.scrollIntoView({ behavior: "smooth" });

@@ -44,7 +44,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className=" bg-blend-multiply   w-full font-Kotori top-0 md:h-[100px] z-40  ">
+      <nav className="  w-full font-Kotori top-0 md:h-[100px] z-40  ">
         <div className=" md:justify-between mx-auto container md:items-center md:flex">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block ">
@@ -72,7 +72,7 @@ const Navbar = () => {
                 navbar ? "p-12 md:p-0 block" : "hidden"
               }`}
             >
-              <ul className="h-[400px] md:h-auto md:text-white md:hover:text-white rounded-xl items-center justify-center bg-black md:bg-transparent  md:items-center md:justify-center  bg-deepViolet md:flex">
+              <ul className="h-[0] md:h-auto md:text-white md:hover:text-white rounded-xl items-center justify-center bg-black md:bg-transparent  md:items-center md:justify-center  bg-deepViolet md:flex">
                 <div className="md:flex ">
                  
                  {/* <li className="md:text-white pb-6 text-md text-white py-2 px-6 text-center   border-purple-900  md:hover:underline  ">
@@ -84,19 +84,19 @@ const Navbar = () => {
                     Impact
                     </Link>
                   </li> */}
-                  {/* <li className="md:text-white pb-6 text-md text-white py-2 px-6 text-center     md:hover:underline  ">
+                  <li className="md:text-white pb-6 text-md text-white py-2 px-6 text-center     md:hover:underline  ">
                     <Link 
-                      onClick={() => {setNavbar(!navbar)
-                      ref={contentRef}}}
+                      onClick={() => setNavbar(!navbar)
+                      }
                       className="md:hover:bg-none md:hover:text-neutral-50"
                     >
                    Our Services
                     </Link>
                   
-                  </li> */}
-                  <li className="flex justify-center items-center md:mt-0 mt-12 md:text-red-600  text-md text-white py-2 px-6 text-center        md:hover:bg-transparent">
+                  </li>
+                  <li className=" md:mt-0 mt-12 md:text-red-600  text-md text-white py-2 px-6 text-center        md:hover:bg-transparent">
                     {" "}
-                    <Link className="text-amber-400 bg-white rounded-3xl whitespace-nowrap px-4 py-2 cursor-pointer" to="https://bbcreators.beehiiv.com/p/change-build-africas-next-unicorn-ai">
+                    <Link className="text-amber-600 bg-white rounded-3xl whitespace-nowrap px-4 py-2 cursor-pointer" to="https://bbcreators.beehiiv.com/p/change-build-africas-next-unicorn-ai">
                     Join Our NewsLetter
                     </Link>
                   </li>
