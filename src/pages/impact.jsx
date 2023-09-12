@@ -89,9 +89,9 @@ const Impact = () => {
               // Same substring at the start will only be typed out once, initially
               "Utilize Aydan's AI Comprehensive AI Development Expertise to maximize your business Potential",
               1000, // wait 1s before replacing "Mice" with "Hamsters"
-              "Utilize Aydan's AI Comprehensive AI Development Expertise to maximize your business Potential",
+              "Utilize Aydan's AI Comprehensive AI Development Expertise to maximize your business Abilities",
               1000,
-              "Utilize Aydan's AI Comprehensive AI Development Expertise to maximize your business Potential",
+              "Utilize Aydan's AI Comprehensive AI Development Expertise to maximize your business Possibility",
               1000,
               // "We produce food for Chinchillas",
               // 1000,
