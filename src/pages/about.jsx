@@ -32,7 +32,7 @@ const About = () => {
                   </Link>
                 </div>
               </div>
-              <img src={img} alt="img" className="w-[450px] rounded-xl"/>
+              <img src={img} alt="img" className="w-[450px] rounded-md drop-shadow-xl"/>
             </div>
           </div>
         </div>

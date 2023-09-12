@@ -8,10 +8,10 @@ import { TextField } from "@mui/material";
 import { TypeAnimation } from "react-type-animation";
 import { useRef } from "react";
 import { Link } from "react-router-dom";
-import abtimg from "../assets/AI.jpeg"
-import abtimg2 from "../assets/AI2.jpeg"
-import abtimg3 from "../assets/AI3.jpeg"
-import abtimg4 from "../assets/automation.jpeg"
+import abtimg from "../assets/AI.jpeg";
+import abtimg2 from "../assets/AI2.jpeg";
+import abtimg3 from "../assets/AI3.jpeg";
+import abtimg4 from "../assets/automation.jpeg";
 import Contact from "./contact";
 // import { makeStyles } from '@mui/system/';
 
@@ -54,7 +54,8 @@ const Impact = () => {
           {/* Content on top of the video background */}
           <div className="mx-auto container md:mt-64">
             <h1 className="inset-0 text-7xl font-bold  mt-24 text-white text-center  md:text-white font-Karla ">
-              Aydan.AI Powering Growth Through Intelligent <span className="text-amber-600">Automation</span>
+              Aydan.AI Powering Growth Through Intelligent{" "}
+              <span className="text-amber-600">Automation</span>
             </h1>
             <p className="text-white pt-4 text-6xl text-center font-Karla">
               <span className="text-amber-300"> </span>
@@ -118,7 +119,11 @@ const Impact = () => {
         </h1>
         <div className="md:flex gap-4 mx-auto container grid font-Kotori justify-center items-center md:pt-8 pt-8">
           <div className="bg-white border-2 border-gray-300 md:p-2 p-2 text-black rounded-md drop-shadow-lg shadow-lg w-[250px] h-[350px]">
-          <img src={abtimg4} alt="img"  className="w-[200px] mx-auto container rounded-md"/>
+            <img
+              src={abtimg4}
+              alt="img"
+              className="w-[200px] mx-auto container rounded-md"
+            />
             <h1 className="text-center font-Kotori text-xl pt-4 font-semibold">
               AI Consultation
             </h1>
@@ -128,8 +133,12 @@ const Impact = () => {
             </p>
           </div>
           <div className="bg-white mt-4 md:mt-0 border-2 border-gray-300 p-2 text-black rounded-md drop-shadow-lg shadow-lg w-[250px] h-[350px]">
-            <img src={abtimg} alt="img"  className="w-[200px] mx-auto container rounded-md"/>
-            <h1 className="text-center text-xl pt-4 font-semibold"> 
+            <img
+              src={abtimg}
+              alt="img"
+              className="w-[200px] mx-auto container rounded-md"
+            />
+            <h1 className="text-center text-xl pt-4 font-semibold">
               Custom AI Solutions
             </h1>
             <p className="text-center text-md pt-2">
@@ -138,7 +147,11 @@ const Impact = () => {
             </p>
           </div>
           <div className="bg-white  border-2 border-gray-300 p-2 drop-shadow-lg shadow-lg  text-black rounded-md w-[250px] h-[350px]">
-          <img src={abtimg2} alt="img"  className="w-[200px] mx-auto container rounded-md"/>
+            <img
+              src={abtimg2}
+              alt="img"
+              className="w-[200px] mx-auto container rounded-md"
+            />
             <h1 className="text-center text-xl pt-4 font-semibold">
               Seamless AI Implementation
             </h1>
@@ -148,7 +161,11 @@ const Impact = () => {
             </p>
           </div>
           <div className="bg-white  border-2 mt-8 md:mt-0 border-gray-300 p-2 text-black rounded-md drop-shadow-lg shadow-lg  w-[250px] h-[350px]">
-          <img src={abtimg3} alt="img"  className="w-[200px] mx-auto container rounded-md"/>
+            <img
+              src={abtimg3}
+              alt="img"
+              className="w-[200px] mx-auto container rounded-md"
+            />
             <h1 className="text-center text-xl pt-4 font-semibold">
               Training & Support
             </h1>
@@ -217,27 +234,31 @@ const Impact = () => {
             learn more about our services
           </p>
           <div className="md:flex grid pt-8 gap-4 justify-center items-center pb-8 flex-col ">
-            <div className="md:flex grid justify-center items-center gap-10">
+            <div className="md:flex grid justify-center items-center gap-20">
               <TextField
                 id="standard-basic"
                 label="First Name"
                 variant="standard"
+                fullWidth="true"
                 // className={classes.textField}
-                type="medium"
+               
               />
               <TextField
                 id="standard-basic"
                 label="Last Name"
                 variant="standard"
+                fullWidth="true"
               />
             </div>{" "}
-            <div className="md:flex grid md:pt-0 pt-2 gap-10">
+            <div className="md:flex grid md:pt-0 pt-2 gap-20">
               <TextField
                 id="standard-basic"
                 label="Phone Number"
                 variant="standard"
+                fullWidth="true"
+              
               />{" "}
-              <TextField id="standard-basic" label="Email" variant="standard" />
+              <TextField id="standard-basic" label="Email" variant="standard" fullWidth='true'/>
             </div>
           </div>
           <div className="flex justify-center items-center">
