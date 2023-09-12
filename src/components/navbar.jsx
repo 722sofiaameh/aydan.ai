@@ -97,7 +97,7 @@ const Navbar = () => {
                   </li>
                   <li className=" md:mt-0 mt-12   text-md text-white py-2 px-6 text-center md:hover:bg-transparent">
                     {" "}
-                    <Link className="text-amber-600 bg-white rounded-3xl whitespace-nowrap px-4 py-2 cursor-pointer" to="https://bbcreators.beehiiv.com/p/change-build-africas-next-unicorn-ai">
+                    <Link className="text-[#DBA514] bg-white rounded-3xl whitespace-nowrap px-4 py-2 cursor-pointer" to="https://bbcreators.beehiiv.com/p/change-build-africas-next-unicorn-ai">
                     Join Our NewsLetter
                     </Link>
                   </li>
