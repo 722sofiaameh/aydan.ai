@@ -1,5 +1,5 @@
 
-import logo from "../assets/logo.png";
+import logo from "../assets/logoo.png";
 import {useState, useEffect } from "react";
 import { IoMdSearch } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -49,7 +49,7 @@ const Navbar = () => {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block ">
               <a href="/">
-                <img src={logo} alt="img" className="w-[10%] rounded-full  " />
+                <img src={logo} alt="img" className="w-[20%] rounded-full  " />
                 
               </a>
               <div className="md:hidden ">
@@ -95,7 +95,7 @@ const Navbar = () => {
                     </a>
                   
                   </li>
-                  <li className=" md:mt-0 mt-12 md:text-red-600  text-md text-white py-2 px-6 text-center        md:hover:bg-transparent">
+                  <li className=" md:mt-0 mt-12   text-md text-white py-2 px-6 text-center md:hover:bg-transparent">
                     {" "}
                     <Link className="text-amber-600 bg-white rounded-3xl whitespace-nowrap px-4 py-2 cursor-pointer" to="https://bbcreators.beehiiv.com/p/change-build-africas-next-unicorn-ai">
                     Join Our NewsLetter

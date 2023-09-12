@@ -8,6 +8,10 @@ import { TextField } from "@mui/material";
 import { TypeAnimation } from "react-type-animation";
 import { useRef } from "react";
 import { Link } from "react-router-dom";
+import abtimg from "../assets/AI.jpeg"
+import abtimg2 from "../assets/AI2.jpeg"
+import abtimg3 from "../assets/AI3.jpeg"
+import abtimg4 from "../assets/automation.jpeg"
 import Contact from "./contact";
 // import { makeStyles } from '@mui/system/';
 
@@ -50,7 +54,7 @@ const Impact = () => {
           {/* Content on top of the video background */}
           <div className="mx-auto container md:mt-64">
             <h1 className="inset-0 text-7xl font-bold  mt-24 text-white text-center  md:text-white font-Karla ">
-              Aydan.AI Powering Growth Through Intelligent Automation
+              Aydan.AI Powering Growth Through Intelligent <span className="text-amber-600">Automation</span>
             </h1>
             <p className="text-white pt-4 text-6xl text-center font-Karla">
               <span className="text-amber-300"> </span>
@@ -58,7 +62,7 @@ const Impact = () => {
             <div className="flex gap-3 justify-center items-center">
               <div className="flex pt-2 font-Karla">
                 <Link
-                  className="text-white md:text-black bg-amber-300 rounded-md whitespace-nowrap px-2 py-1 cursor-pointer "
+                  className="text-white md:text-white bg-amber-600 rounded-md whitespace-nowrap px-10 py-2 cursor-pointer "
                   onClick={scrollToContact}
                 >
                   Get In Touch
@@ -66,7 +70,7 @@ const Impact = () => {
               </div>{" "}
               <div className="flex pt-2 font-Karla">
                 <Link
-                  className="text-amber-300 md:text-amber-700 bg-white rounded-md whitespace-nowrap px-2 py-1 cursor-pointer "
+                  className="text-amber-300 md:text-amber-600 bg-white rounded-md whitespace-nowrap px-10 py-2 cursor-pointer "
                   onClick={scrollToContent}
                 >
                   Our Services
@@ -113,44 +117,68 @@ const Impact = () => {
           Our Cutting-Edge Solutions
         </h1>
         <div className="md:flex gap-4 mx-auto container grid font-Kotori justify-center items-center md:pt-8 pt-8">
-          <div className="bg-white border-2 border-gray-300 md:p-2 p-2 text-black rounded-md drop-shadow-lg shadow-lg w-[350px] h-[200px]">
+          <div className="bg-white border-2 border-gray-300 md:p-2 p-2 text-black rounded-md drop-shadow-lg shadow-lg w-[250px] h-[350px]">
+          <img src={abtimg4} alt="img"  className="w-[200px] mx-auto container rounded-md"/>
             <h1 className="text-center font-Kotori text-xl pt-4 font-semibold">
               AI Consultation
             </h1>
-            <p className="text-center text-md pt-4">
+            <p className="text-center text-md pt-2">
               Let our AI experts identify key automation opportunities within
               your business.
             </p>
           </div>
-          <div className="bg-white mt-4 md:mt-0 border-2 border-gray-300 p-2 text-black rounded-md drop-shadow-lg shadow-lg  w-[350px] h-[200px]">
-            <h1 className="text-center text-xl pt-4 font-semibold">
+          <div className="bg-white mt-4 md:mt-0 border-2 border-gray-300 p-2 text-black rounded-md drop-shadow-lg shadow-lg w-[250px] h-[350px]">
+            <img src={abtimg} alt="img"  className="w-[200px] mx-auto container rounded-md"/>
+            <h1 className="text-center text-xl pt-4 font-semibold"> 
               Custom AI Solutions
             </h1>
-            <p className="text-center text-md pt-4">
+            <p className="text-center text-md pt-2">
               Bespoke AI systems tailored to your specific business needs and
               goals.
             </p>
           </div>
-        </div>
-        <div className="md:flex grid gap-4 justify-center items-center md:pt-12 pt-8">
-          <div className="bg-white  border-2 border-gray-300 p-2 drop-shadow-lg shadow-lg  text-black rounded-md w-[350px] h-[200px]">
+          <div className="bg-white  border-2 border-gray-300 p-2 drop-shadow-lg shadow-lg  text-black rounded-md w-[250px] h-[350px]">
+          <img src={abtimg2} alt="img"  className="w-[200px] mx-auto container rounded-md"/>
             <h1 className="text-center text-xl pt-4 font-semibold">
               Seamless AI Implementation
             </h1>
-            <p className="text-center text-md pt-4">
+            <p className="text-center text-md pt-2">
               Efficient integration of AI solutions into your existing
               operations.
             </p>
           </div>
-          <div className="bg-white  border-2 mt-8 md:mt-0 border-gray-300 p-2 text-black rounded-md drop-shadow-lg shadow-lg  w-[350px] h-[200px]">
+          <div className="bg-white  border-2 mt-8 md:mt-0 border-gray-300 p-2 text-black rounded-md drop-shadow-lg shadow-lg  w-[250px] h-[350px]">
+          <img src={abtimg3} alt="img"  className="w-[200px] mx-auto container rounded-md"/>
             <h1 className="text-center text-xl pt-4 font-semibold">
               Training & Support
             </h1>
-            <p className="text-center text-md pt-4">
+            <p className="text-center text-md pt-2">
               Equip your team with the knowledge to leverage our AI solutions to
               their fullest potential
             </p>
           </div>
+        </div>
+        <div className="md:flex grid gap-4 justify-center items-center md:pt-12 pt-8">
+          {/* <div className="bg-white  border-2 border-gray-300 p-2 drop-shadow-lg shadow-lg  text-black rounded-md w-[250px] h-[350px]">
+          <img src={abtimg} alt="img"  className="w-[200px] mx-auto container rounded-md"/>
+            <h1 className="text-center text-xl pt-4 font-semibold">
+              Seamless AI Implementation
+            </h1>
+            <p className="text-center text-md pt-2">
+              Efficient integration of AI solutions into your existing
+              operations.
+            </p>
+          </div> */}
+          {/* <div className="bg-white  border-2 mt-8 md:mt-0 border-gray-300 p-2 text-black rounded-md drop-shadow-lg shadow-lg  w-[250px] h-[350px]">
+          <img src={abtimg} alt="img"  className="w-[200px] mx-auto container rounded-md"/>
+            <h1 className="text-center text-xl pt-4 font-semibold">
+              Training & Support
+            </h1>
+            <p className="text-center text-md pt-2">
+              Equip your team with the knowledge to leverage our AI solutions to
+              their fullest potential
+            </p>
+          </div> */}
         </div>
       </div>
       <div className=" ">
