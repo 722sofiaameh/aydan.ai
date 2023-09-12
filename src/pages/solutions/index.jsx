@@ -4,7 +4,7 @@ import Navbar from "../../components/navbar";
 export const Solution = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className=" pt-28 pb-12 text-white">
         <h1 className="text-center  font-Kotori text-amber-500 text-xl pt-4 uppercase">
           Our Cutting-Edge Solutions

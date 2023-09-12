@@ -1,4 +1,4 @@
-import vid from "../assets/bg-vid.mp4";
+import vid from "../assets/aydanAI.mp4";
 import About from "./about";
 import { Solution } from "./solutions";
 import React from "react";
@@ -8,24 +8,31 @@ import { TextField } from "@mui/material";
 import { TypeAnimation } from "react-type-animation";
 import { useRef } from "react";
 import { Link } from "react-router-dom";
-
+import Contact from "./contact";
+// import { makeStyles } from '@mui/system/';
 
 const Impact = () => {
   const contentRef = useRef(null);
   const contactRef = useRef(null);
 
- const scrollToContent = () => {
+  const scrollToContent = () => {
     // Scroll to the content element smoothly
     if (contentRef.current) {
       contentRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
- const scrollToContact = () => {
+  const scrollToContact = () => {
     // Scroll to the content element smoothly
     if (contactRef.current) {
       contactRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
+
+  // const useStyles = makeStyles({
+  //   textField: {
+  //     width: '300px', // Adjust the width as needed
+  //   },
+  // });
   return (
     <div>
       <div className="relative ">
@@ -33,22 +40,22 @@ const Impact = () => {
           autoPlay
           loop
           muted
-          className="w-[100vw] h-[95vh] absolute inset-0 object-cover"
-          >
+          className="w-[100vw] h-[100vh] relative inset-0 object-cover "
+        >
           <source src={vid} type="video/mp4" />
         </video>
-        <div className="relative z-10 ">
-          <Navbar/>
+        <div className="overlay"></div>
+        <div className="absolute top-0 w-full z-10 ">
+          <Navbar />
           {/* Content on top of the video background */}
-          <div className="mx-auto container">
-            <h1 className="text-5xl w-1/2 md:mt-32 mt-24 text-white  md:text-white font-Karla">
-              Aydan.Ai 
+          <div className="mx-auto container md:mt-64">
+            <h1 className="inset-0 text-7xl font-bold  mt-24 text-white text-center  md:text-white font-Karla ">
+              Aydan.AI Powering Growth Through Intelligent Automation
             </h1>
-            <p className="text-white pt-4 text-md font-Karla">
-              Powering Growth Through Intelligent
-              <span className="text-amber-300"> Automation</span>
+            <p className="text-white pt-4 text-6xl text-center font-Karla">
+              <span className="text-amber-300"> </span>
             </p>
-            <div className="flex gap-3">
+            <div className="flex gap-3 justify-center items-center">
               <div className="flex pt-2 font-Karla">
                 <Link
                   className="text-white md:text-black bg-amber-300 rounded-md whitespace-nowrap px-2 py-1 cursor-pointer "
@@ -100,7 +107,8 @@ const Impact = () => {
           />
         </div>
       </div>
-      <div className=" pt-12 pb-12 text-white" ref={contentRef}>
+      {/* <Solution/> */}
+      <div className=" pt-12 pb-12 text-white" ref={contentRef} id="solution">
         <h1 className="text-center  font-Kotori text-amber-500 text-xl pt-4 uppercase">
           Our Cutting-Edge Solutions
         </h1>
@@ -144,7 +152,7 @@ const Impact = () => {
             </p>
           </div>
         </div>
-      </div>{" "}
+      </div>
       <div className=" ">
         <div className="h-[80vh] font-Karla pt-28 bg-black text-white">
           <div>
@@ -155,8 +163,8 @@ const Impact = () => {
               Contact Aydan.AI and start your journey towards streamlined
               operations and remarkable growth.<br></br> Let's redefine what's
               possible with AI.The Aydan Group team is composed of experienced{" "}
-              <br></br>AI experts with a deep understanding of the needs of SMEs.
-              The team is committed to providing innovative and affordable
+              <br></br>AI experts with a deep understanding of the needs of
+              SMEs. The team is committed to providing innovative and affordable
               <br></br> AI automation solutions that help businesses grow.
             </p>
             <div className="flex pt-4 md:pb-0 pb-4 justify-center items-center">
@@ -187,6 +195,7 @@ const Impact = () => {
                 label="First Name"
                 variant="standard"
                 // className={classes.textField}
+                type="medium"
               />
               <TextField
                 id="standard-basic"
@@ -212,8 +221,9 @@ const Impact = () => {
             </button>
           </div>
         </div>
+        {/* <Contact/> */}
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

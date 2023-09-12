@@ -1,5 +1,5 @@
 
-import logo from "../assets/logoo.png";
+import logo from "../assets/logo.png";
 import {useState, useEffect } from "react";
 import { IoMdSearch } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -49,7 +49,7 @@ const Navbar = () => {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block ">
               <a href="/">
-                <img src={logo} alt="img" className="w-[20%] rounded-3xl  " />
+                <img src={logo} alt="img" className="w-[10%] rounded-full  " />
                 
               </a>
               <div className="md:hidden ">
@@ -84,14 +84,15 @@ const Navbar = () => {
                     Impact
                     </Link>
                   </li> */}
-                  <li className="md:text-white pb-6 text-md text-white py-2 px-6 text-center     md:hover:underline  ">
-                    <Link 
+                  <li className="md:text-white pb-6 text-md text-white font-semibold py-2 px-6 text-center     md:hover:underline  ">
+                    <a 
                       onClick={() => setNavbar(!navbar)
                       }
-                      className="md:hover:bg-none md:hover:text-neutral-50"
+                      className="md:hover:bg-none font-Karla  md:hover:text-neutral-50"
+                      href="#solution"
                     >
-                   Our Services
-                    </Link>
+                   Our Services.
+                    </a>
                   
                   </li>
                   <li className=" md:mt-0 mt-12 md:text-red-600  text-md text-white py-2 px-6 text-center        md:hover:bg-transparent">

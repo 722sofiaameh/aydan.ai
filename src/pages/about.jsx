@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="z-0 relative ">
-        <div className="z-0 relative md:pt-[300px] pt-[480px]">
+        <div className="z-0 relative md:pt-[100px] pt-[480px]">
           <div className="mx-auto container">
                 <h1 className="text-center md:pb-12 font-Karla md:text-4xl text-3xl text-amber-600">
                   Who We Are
