@@ -52,15 +52,15 @@ const Impact = () => {
         <div className="absolute top-0 w-full z-10 ">
           <Navbar />
           {/* Content on top of the video background */}
-          <div className="mx-auto container md:mt-64">
-            <h1 className="inset-0 md:text-7xl text-3xl font-bold  mt-24 text-white text-center  md:text-white font-Karla ">
+          <div className="mx-auto container md:mt-64 mt-32">
+            <h1 className="inset-0 md:text-7xl text-3xl font-bold  text-white text-center  md:text-white font-Karla ">
               Aydan.AI Powering Growth Through Intelligent{" "}
               <span className="text-[#DEB038]">Automation</span>
             </h1>
             <p className="text-white pt-4 text-6xl text-center font-Karla">
               <span className="text-amber-300"> </span>
             </p>
-            <div className="flex gap-3 justify-center items-center">
+            <div className="md:flex grid gap-3 justify-center items-center">
               <div className="flex pt-2 font-Karla">
                 <Link
                   className="text-white md:text-white bg-[#DEB038] rounded-md whitespace-nowrap px-10 py-2 cursor-pointer "
@@ -199,7 +199,7 @@ const Impact = () => {
         </div>
       </div>
       <div className=" ">
-        <div className="h-[60vh] font-Karla pt-24 bg-[#DEB038] text-white">
+        <div className="md:h-[60vh] h-[80vh]  font-Karla pt-24  bg-[#DEB038] text-white">
           <div>
             <h1 className="text-center text-3xl">
               Ready to Amplify Your Business Growth?
@@ -234,7 +234,7 @@ const Impact = () => {
             learn more about our services
           </p>
           <div className="md:flex grid pt-8 gap-4 justify-center items-center pb-8 flex-col ">
-            <div className="md:flex grid justify-center items-center gap-20">
+            <div className="md:flex grid justify-center items-center md:gap-20 gap-8">
               <TextField
                 id="standard-basic"
                 label="First Name"
@@ -250,7 +250,7 @@ const Impact = () => {
                 fullWidth="true"
               />
             </div>{" "}
-            <div className="md:flex grid md:pt-0 pt-2 gap-20">
+            <div className="md:flex grid md:pt-0 pt-2 md:gap-20 gap-8">
               <TextField
                 id="standard-basic"
                 label="Phone Number"
