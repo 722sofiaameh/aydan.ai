@@ -53,9 +53,9 @@ const Impact = () => {
           <Navbar />
           {/* Content on top of the video background */}
           <div className="mx-auto container md:mt-64">
-            <h1 className="inset-0 text-7xl font-bold  mt-24 text-white text-center  md:text-white font-Karla ">
+            <h1 className="inset-0 md:text-7xl text-3xl font-bold  mt-24 text-white text-center  md:text-white font-Karla ">
               Aydan.AI Powering Growth Through Intelligent{" "}
-              <span className="text-[#DBA514]">Automation</span>
+              <span className="text-[#DEB038]">Automation</span>
             </h1>
             <p className="text-white pt-4 text-6xl text-center font-Karla">
               <span className="text-amber-300"> </span>
@@ -63,7 +63,7 @@ const Impact = () => {
             <div className="flex gap-3 justify-center items-center">
               <div className="flex pt-2 font-Karla">
                 <Link
-                  className="text-white md:text-white bg-[#DBA514] rounded-md whitespace-nowrap px-10 py-2 cursor-pointer "
+                  className="text-white md:text-white bg-[#DEB038] rounded-md whitespace-nowrap px-10 py-2 cursor-pointer "
                   onClick={scrollToContact}
                 >
                   Get In Touch
@@ -71,7 +71,7 @@ const Impact = () => {
               </div>{" "}
               <div className="flex pt-2 font-Karla">
                 <Link
-                  className="text-[#DBA514] md:text-[#DBA514] bg-white rounded-md whitespace-nowrap px-10 py-2 cursor-pointer "
+                  className="text-[#DEB038] md:text-[#DEB038] bg-white rounded-md whitespace-nowrap px-10 py-2 cursor-pointer "
                   onClick={scrollToContent}
                 >
                   Our Services
@@ -82,7 +82,7 @@ const Impact = () => {
         </div>
       </div>
       <About />
-      <div className="bg-[#DBA514] mt-16">
+      <div className="bg-[#DEB038] mt-16">
         <div className=" flex justify-between items-center py-24 mx-auto container">
           <TypeAnimation
             sequence={[
@@ -114,7 +114,7 @@ const Impact = () => {
       </div>
       {/* <Solution/> */}
       <div className=" pt-12 pb-12 text-white" ref={contentRef} id="solution">
-        <h1 className="text-center  font-Kotori text-[#DBA514] text-xl pt-4 uppercase">
+        <h1 className="text-center  font-Kotori text-[#DEB038] text-xl pt-4 uppercase">
           Our Cutting-Edge Solutions
         </h1>
         <div className="md:flex gap-4 mx-auto container grid font-Kotori justify-center items-center md:pt-8 pt-8">
@@ -199,7 +199,7 @@ const Impact = () => {
         </div>
       </div>
       <div className=" ">
-        <div className="h-[60vh] font-Karla pt-24 bg-[#DBA514] text-white">
+        <div className="h-[60vh] font-Karla pt-24 bg-[#DEB038] text-white">
           <div>
             <h1 className="text-center text-3xl">
               Ready to Amplify Your Business Growth?
@@ -214,7 +214,7 @@ const Impact = () => {
             </p>
             <div className="flex pt-4 md:pb-0 pb-4 justify-center items-center">
               <button
-                className="text-[#DBA514] bg-white  rounded-lg whitespace-nowrap px-4 py-2 cursor-pointer "
+                className="text-[#DEB038] bg-white  rounded-lg whitespace-nowrap px-4 py-2 cursor-pointer "
                 to="/solutions"
                 onClick={scrollToContact}
               >
@@ -264,7 +264,7 @@ const Impact = () => {
           <div className="flex justify-center items-center">
             <button
               className="
-                bg-[#DBA514] p-1 text-white rounded-md w-[100px] mb-8 font-Karla"
+                bg-[#DEB038] p-1 text-white rounded-md w-[100px] mb-8 font-Karla"
             >
               Send
             </button>
