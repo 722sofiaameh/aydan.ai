@@ -58,7 +58,7 @@ const Navbar = () => {
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
-                    <GrFormClose color="#232A34" />
+                    <GrFormClose color="white" />
                   ) : (
                     <GiHamburgerMenu color="white" />
                   )}
@@ -72,7 +72,7 @@ const Navbar = () => {
                 navbar ? "p-12 md:p-0 block" : "hidden"
               }`}
             >
-              <ul className="h-[0] md:h-auto md:text-white md:hover:text-white rounded-xl items-center justify-center bg-black md:bg-transparent  md:items-center md:justify-center  bg-deepViolet md:flex">
+              <ul className="h-[20] md:h-auto md:text-white md:hover:text-white rounded-xl items-center justify-center bg-[#DEB038] md:bg-transparent  md:items-center md:justify-center  bg-deepViolet md:flex">
                 <div className="md:flex ">
                  
                  {/* <li className="md:text-white pb-6 text-md text-white py-2 px-6 text-center   border-purple-900  md:hover:underline  ">
@@ -95,7 +95,7 @@ const Navbar = () => {
                     </a>
                   
                   </li>
-                  <li className=" md:mt-0 mt-12 text-sm text-white py-2 px-6 text-center md:hover:bg-transparent">
+                  <li className=" md:mt-0 pb-6 text-sm text-white py-2 px-6 text-center md:hover:bg-transparent">
                     {" "}
                     <Link className="text-[#DEB038] bg-white rounded-3xl whitespace-nowrap px-4 py-2 cursor-pointer" to="https://bbcreators.beehiiv.com/p/change-build-africas-next-unicorn-ai">
                     Join Our NewsLetter
