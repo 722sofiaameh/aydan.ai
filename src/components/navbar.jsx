@@ -58,7 +58,7 @@ const Navbar = () => {
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
-                    <GrFormClose color="white" />
+                    <GrFormClose color="white" className="text-white bg-white"/>
                   ) : (
                     <GiHamburgerMenu color="white" />
                   )}
