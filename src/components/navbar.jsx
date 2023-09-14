@@ -69,11 +69,11 @@ const Navbar = () => {
           <div>
             <div
               className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-                navbar ? "p-12 md:p-0 block" : "hidden"
+                navbar ? " absolute md:p-0 block" : "hidden"
               }`}
             >
-              <ul className="h-[20] md:h-auto md:text-white md:hover:text-white rounded-xl items-center justify-center bg-[#DEB038] md:bg-transparent  md:items-center md:justify-center  bg-deepViolet md:flex">
-                <div className="md:flex ">
+              <ul className="h-[40vh] md:h-auto md:text-white md:hover:text-white rounded-xl items-center justify-center bg-[#DEB038] md:bg-transparent  md:items-center md:justify-center  bg-deepViolet md:flex">
+                <div className="md:flex grid pt-12 justify-center items-center">
                  
                  {/* <li className="md:text-white pb-6 text-md text-white py-2 px-6 text-center   border-purple-900  md:hover:underline  ">
                     <Link
@@ -102,8 +102,7 @@ const Navbar = () => {
                     </Link>
                   </li>
                 </div>
-                <li></li>
-                <div></div>
+                
               </ul>
             </div>
           </div>

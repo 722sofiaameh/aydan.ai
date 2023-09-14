@@ -52,7 +52,7 @@ const Impact = () => {
         <div className="absolute top-0 w-full z-10 ">
           <Navbar />
           {/* Content on top of the video background */}
-          <div className="mx-auto container md:mt-64 mt-32">
+          <div className="mx-auto container md:mt-64 mt-64">
             <h1 className="inset-0 md:text-7xl text-3xl font-bold  text-white text-center  md:text-white font-Karla ">
               Aydan.AI Powering Growth Through Intelligent{" "}
               <span className="text-[#DEB038]">Automation</span>
