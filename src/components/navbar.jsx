@@ -39,7 +39,7 @@ const Navbar = () => {
     margin:0,
     width: '100%',
     zIndex: 1000,
-    color: scrolling ? 'black' : 'white'
+   
   };
 
   return (
@@ -72,7 +72,7 @@ const Navbar = () => {
                 navbar ? " absolute md:p-0 block" : "hidden"
               }`}
             >
-              <ul className="h-[40vh] md:h-auto md:text-white md:hover:text-white rounded-xl items-center justify-center bg-[#DEB038] md:bg-transparent  md:items-center md:justify-center  bg-deepViolet md:flex">
+              <ul className="h-[28vh] md:h-auto md:text-white md:hover:text-white rounded-xl items-center justify-center bg-[#DEB038] md:bg-transparent  md:items-center md:justify-center  bg-deepViolet md:flex">
                 <div className="md:flex grid pt-12 justify-center items-center">
                  
                  {/* <li className="md:text-white pb-6 text-md text-white py-2 px-6 text-center   border-purple-900  md:hover:underline  ">
